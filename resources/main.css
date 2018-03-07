@@ -3,7 +3,46 @@
 * {
   margin: 0;
 }
+a{
+  color: black;
+}
 
 /*CSS MAIN*/
 
 /*ALL HEADER CSS*/
+header{
+  display: flex;
+  align-items:center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+
+
+}
+
+.logo{
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  flex-grow: 1;
+}
+
+.logo span{
+  margin-left: 10px;
+}
+
+.nav{
+  margin-right: 20px;
+}
+
+.nav span{
+  display: inline-block;
+  margin: 20px 10px;
+
+}
