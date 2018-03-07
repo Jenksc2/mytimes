@@ -21,8 +21,6 @@ header{
   width: 100%;
   position: fixed;
   z-index: 5;
-
-
 }
 
 .logo{
@@ -45,4 +43,46 @@ header{
   display: inline-block;
   margin: 20px 10px;
 
+}
+
+/*MAIN SECTION CSS*/
+
+div{
+  border: 1px solid black;
+}
+
+main{
+  display: flex;
+  height: 600px;
+  width: 1290;
+  padding-top: 120px;
+  border: 1px solid black;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.column.large{
+  width: 630px;
+
+}
+
+.column.medium{
+  width: 300px;
+
+}
+
+.column.small{
+  width: 240px;
+}
+
+p{
+  margin: 20px 0px;
+}
+
+h2{
+  margin: 20px 0px;
 }
