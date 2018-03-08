@@ -47,13 +47,11 @@ header{
 
 /*MAIN SECTION CSS*/
 
-div{
-  border: 1px solid black;
-}
+
 
 main{
   display: flex;
-  height: 600px;
+
   width: 1290;
   padding-top: 120px;
   border: 1px solid black;
@@ -63,6 +61,7 @@ main{
   display: flex;
   flex-direction: column;
   margin-right: 40px;
+  flex-shrink: 0;
 }
 
 .column.large{
@@ -79,10 +78,101 @@ main{
   width: 240px;
 }
 
-p{
+p, h2, h3{
   margin: 20px 0px;
 }
 
-h2{
-  margin: 20px 0px;
+p, span{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.img-story-main{
+  display: flex;
+  height:300px;
+  background-image: url(../resources/images/img-story-main.png);
+}
+
+.img-story-main .mainstory{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.orca{
+  height: 300px;
+  width: 300px;
+
+}
+
+.earth{
+  display: flex;
+  justify-content: center;
+
+  height: 300px;
+  width: 300px;
+  order: 3;
+
+
+
+  background-image: url(../resources/images/img-story-2.png);
+}
+.earth span{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 40px;
+  width: 240px;
+  text-align: center;
+
+
+}
+
+.breakfast{
+  height: 300px;
+  width: 300px;
+}
+
+.camera{
+  display: flex;
+  justify-content: center;
+  background-image: url(../resources/images/img-story-3.png);
+  height: 300px;
+  width: 300px;
+  order: 4;
+
+}
+.camera span{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  height: 40px;
+  width: 280px;
+}
+
+.cat{
+  background-image: url(../resources/images/img-story-1.png);
+  height: 300px;
+}
+.cat span{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.secondarystories1{
+  display: flex;
+  flex-flow: row wrap;
+
+  width: 630px;
+
+}
+
+.secondarystories1 div{
+  margin: 0px 10px 10px 0px;
 }
